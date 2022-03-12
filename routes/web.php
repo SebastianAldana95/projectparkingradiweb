@@ -23,7 +23,6 @@ Route::group([
     function () {
 
         Route::get('/', [\App\Http\Controllers\Admin\AdminController::class, 'index'])->name('dashboard');
-
         Route::resource('vehicles', \App\Http\Controllers\Admin\VehiclesController::class, ['except' => 'show', 'as' => 'admin']);
         Route::resource('users', \App\Http\Controllers\Admin\UsersController::class, ['as' => 'admin']);
 
