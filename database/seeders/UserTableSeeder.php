@@ -21,7 +21,7 @@ class UserTableSeeder extends Seeder
         $user->name = 'Administrador';
         $user->email = 'administrador@admin.com';
         $user->document = '1073528364';
-        $user->password = '$2a$12$Ei1cYD2/Wb71c2Y2DSnRXOyAia1Lzm.z5XpjedkbCs6141ES3NC7i'; // password
+        $user->password = 'password'; // password
         $user->save();
 
         $user = new User;
