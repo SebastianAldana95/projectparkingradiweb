@@ -52,7 +52,7 @@ class VehiclesTableSeeder extends Seeder
         $type->save();
 
 
-        $vehicle = new Vehicle;
+        /*$vehicle = new Vehicle;
         $vehicle->plate = 'FYQ90A';
         $vehicle->brand = 'Yamaha';
         $vehicle->user_id = 1;
@@ -71,7 +71,7 @@ class VehiclesTableSeeder extends Seeder
         $vehicle->brand = 'Renault';
         $vehicle->user_id = 2;
         $vehicle->type_id = 5;
-        $vehicle->save();
+        $vehicle->save();*/
 
     }
 }

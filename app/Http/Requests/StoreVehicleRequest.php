@@ -38,7 +38,7 @@ class StoreVehicleRequest extends FormRequest
         return [
             'plate.required' => 'El campo placa es obligatorio.',
             'brand.required' => 'El campo marca es obligatorio.',
-            'type.required' => 'El campo tipo de vehiculo es obligatorio.',
+            'type_id.required' => 'El campo tipo de vehiculo es obligatorio.',
             'document.required' => 'El campo cedula es obligatorio'
         ];
     }
