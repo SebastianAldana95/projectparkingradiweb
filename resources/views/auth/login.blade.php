@@ -71,6 +71,9 @@
                         <button type="submit" class="btn btn-primary btn-block">Entrar</button>
                     </div>
                     <!-- /.col -->
+                    <p class="mb-0">
+                        <a href="{{ route('register') }}" class="text-center">Registrar</a>
+                    </p>
                 </div>
             </form>
         </div>
