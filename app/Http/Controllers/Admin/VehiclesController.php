@@ -85,3 +85,4 @@ class VehiclesController extends Controller
             ->with('flash', 'El vehiculo ha sido eliminado');
     }
 }
+
